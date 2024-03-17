@@ -11,6 +11,29 @@ https://kh3-ls-storage.s3.us-east-1.amazonaws.com/Dataset_1.xlsx
 
 Solution
 =
+
+SUMMARY OUTPUT								
+								
+Regression Statistics								
+Multiple R	0.992557583							
+R Square	0.985170555							
+Adjusted R Square	0.985044881							
+Standard Error	2297.767962							
+Observations	358							
+								
+ANOVA								
+	df	SS	MS	F	Significance F			
+Regression	3	1.24166E+11	41388611948	7839.141832	0			
+Residual	354	1869027113	5279737.608					
+Total	357	1.26035E+11						
+								
+	Coefficients	Standard Error	t Stat	P-value	Lower 95%	Upper 95%	Lower 95.0%	Upper 95.0%
+Intercept	-97558.76481	1269.713415	-76.8352635	7.0533E-223	-100055.8948	-95061.6348	-100055.8948	-95061.6348
+FLOOR_SIZE	69.69929534	0.647815907	107.591207	1.7487E-272	68.42524364	70.97334704	68.42524364	70.97334704
+NO_OF_BATHROOMS	496.9900137	245.6948562	2.022793726	0.043845756	13.78491374	980.1951136	13.78491374	980.1951136
+PRICE_SQFT	1368.674756	11.09522401	123.3571089	5.8314E-293	1346.853913	1390.495599	1346.853913	1390.495599
+![image](https://github.com/devvrat2/Statistics/assets/157883632/6b60323d-8270-4d10-9a3f-4d22f529f274)
+
 "5% probability of observing a value outside of the confidence interval or 95%confidence
 
 FLOOR_SIZE:
